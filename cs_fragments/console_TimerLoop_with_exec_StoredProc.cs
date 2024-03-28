@@ -70,7 +70,7 @@ namespace cons_ReadFromSqlDB
                         }
                         else
                         {
-                            Console.WriteLine("zelle1 ist " + reader[0] + " // zelle2 ist" + reader[1]);
+                            Console.WriteLine("zelle1 ist " + reader[0] + " => (IsJSON_returnValue) " + reader[1] );
                         }
                         //-- end if
                     }
